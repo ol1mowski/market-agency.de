@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/market-agency.de/static/css/main.060f1dba.css",
+    "main.js": "/market-agency.de/static/js/main.cf9d01bf.js",
+    "static/js/787.a22df009.chunk.js": "/market-agency.de/static/js/787.a22df009.chunk.js",
+    "static/media/work.png": "/market-agency.de/static/media/work.c67057286233ce56571b.png",
+    "static/media/main.png": "/market-agency.de/static/media/main.2609810aab2e383667d8.png",
+    "static/media/footer.png": "/market-agency.de/static/media/footer.aa042907e131b077e23e.png",
+    "static/media/logo.svg": "/market-agency.de/static/media/logo.1617487d0efe16eaa2ca7af2fd9dc38f.svg",
+    "static/media/accounting.svg": "/market-agency.de/static/media/accounting.f11739a59f47e3bf6ebb51a5d36d5562.svg",
+    "static/media/e-commerce.svg": "/market-agency.de/static/media/e-commerce.4004a2d09ad7ecad7c99dcf0cf1c0111.svg",
+    "index.html": "/market-agency.de/index.html",
+    "main.060f1dba.css.map": "/market-agency.de/static/css/main.060f1dba.css.map",
+    "main.cf9d01bf.js.map": "/market-agency.de/static/js/main.cf9d01bf.js.map",
+    "787.a22df009.chunk.js.map": "/market-agency.de/static/js/787.a22df009.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.060f1dba.css",
+    "static/js/main.cf9d01bf.js"
+  ]
+}
