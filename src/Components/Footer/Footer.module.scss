@@ -1,0 +1,61 @@
+.footerContainer {
+    background-color: #e7dfd8;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+    &__leftSide {
+        height: 50vh;
+
+        @media screen and (min-width: 1024px){
+            width: 40vw;
+            display: inline-block;
+        }
+        @media (orientation: landscape)and (min-width: 320px) and (max-width: 920px){
+            height: 80vh;
+        }
+        &__img {
+            width: 90%;
+            height: 100%;
+            margin: 0 auto;
+            display: block;
+            @media screen and (min-width: 500px) {
+                width: 70%;
+            }
+            @media screen and (min-width: 1024px) {
+                width: 100%;
+                margin-left: 10%;
+            }
+        }
+    }
+    &__rightSide {
+        height: 50vh;
+        padding-left: 2rem;
+        @media screen and (min-width: 1024px){
+            width: 20vw;
+            margin-left: 20%;
+            padding: 0;
+            display: inline-block;
+        }
+        @media (orientation: landscape)and (min-width: 320px) and (max-width: 920px){
+            height: 80vh;
+        }
+        &__h2 {
+            font-size: 3rem;
+            text-align: center;
+            @media screen and (min-width: 1400px)  {
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+.copy {
+    color: #101010;
+    margin: 0;
+    text-align: center;
+    padding: 3vh 0;
+    font-size: .8rem;
+    @media screen and (min-width: 350px) {
+        margin-top: 5vh;
+    }
+}
