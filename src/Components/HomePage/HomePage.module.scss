@@ -1,16 +1,78 @@
 .homeContainer {
-    width: 100vw;
-    height: 100vh;
+    background-color: #e7dfd8;
+    color: #101010;
+    &__left {
+        height: 60vh;
+        @media screen and (min-width: 1024px) {
+            width: 40vw;
+            height: 100vh;
+            display: inline-block;
+        }
+        &__logo {
+            width: 15%;
+            padding: 1rem;
+            @media screen and (min-width: 500px) {
+                width: 10%;
+            }
+            @media screen and (min-width: 800px) {
+                width: 7%;
+            }
+            @media screen and (min-width: 1024px) {
+                padding: 2rem;
+            }
+        }
+        &__content {
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            height: 100%;
+            padding: 0 2rem;
+            height: 75%;
+            text-align: left;
+            @media screen and (min-width: 600px) {
+                padding: 0 5rem;
+            }
+            @media screen and (min-width: 750px) {
+                padding: 0 10rem;
+            }
+            @media screen and (min-width: 900px) {
+                padding: 0 15rem;
+            }
+            @media screen and (min-width: 1024px) {
+                padding: 0 2rem;
+            }
+            @media screen and (min-width: 1600px) {
+                padding: 0 5rem;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            button {
+                border: 2px solid #101010;
+                padding: 1rem;
+                background: transparent;
+                font-size: 1rem;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
     &__right {
         background-image: url('../../assets/images/main.png');
         background-position: center;
         background-size: cover;
-        width: 100vw;
-        height: 50vh;
-    }
-    &__left {
-        background-color: #e7dfd8;
-        width: 100vw;
-        height: 50vh;
+        height: 40vh;
+        width: 90vw;
+        margin: 0 auto;
+        @media screen and (min-width: 1024px) {
+            width: 50vw;
+            height: 60vh;
+            margin-top: 2%;
+            display: inline-block;
+        }
     }
 }
