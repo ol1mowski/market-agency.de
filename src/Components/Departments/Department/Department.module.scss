@@ -31,6 +31,10 @@
     @media screen and (min-width: 1700px) {
         height: 40vh;
     }
+    @media (orientation: landscape)and (min-width: 320px) and (max-width: 920px) {
+        height: 100vh;
+        margin-bottom: 20%;
+    }
     h2 {
         font-size: 2rem;
         font-weight: bold;
