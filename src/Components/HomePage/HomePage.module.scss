@@ -1,0 +1,16 @@
+.homeContainer {
+    width: 100vw;
+    height: 100vh;
+    &__right {
+        background-image: url('../../assets/images/main.png');
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: 50vh;
+    }
+    &__left {
+        background-color: #e7dfd8;
+        width: 100vw;
+        height: 50vh;
+    }
+}
