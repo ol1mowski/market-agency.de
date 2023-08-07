@@ -1,12 +1,20 @@
 .homeContainer {
     background-color: #e7dfd8;
     color: #101010;
+    padding-bottom: 2rem;
+    @media screen and (min-width: 1024px)  {
+        padding: 0;
+    }
     &__left {
         height: 60vh;
         @media screen and (min-width: 1024px) {
             width: 40vw;
             height: 100vh;
             display: inline-block;
+        }
+        @media (orientation: landscape)and (min-width: 320px) and (max-width: 920px) {
+            height: 100%;
+            padding-bottom: 7%;
         }
         &__logo {
             width: 15%;
@@ -19,6 +27,9 @@
             }
             @media screen and (min-width: 1024px) {
                 padding: 2rem;
+            }
+            @media (orientation: landscape)and (min-width: 320px) and (max-width: 920px) {
+                width: 7%;
             }
         }
         &__content {
@@ -73,6 +84,10 @@
             height: 60vh;
             margin-top: 2%;
             display: inline-block;
+        }
+        @media (orientation: landscape)and (min-width: 320px) and (max-width: 920px) {
+            height: 90vh;
+            width: 80vw;
         }
     }
 }
