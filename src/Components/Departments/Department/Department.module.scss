@@ -1,0 +1,62 @@
+.departmentConatiner {
+    background-color: #fff;
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 15vh;
+    height: 50vh;
+    margin-bottom: 40%;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 15px;
+    flex-direction: column;
+    @media screen and (min-width: 600px) {
+        width: 70vw;
+    }
+    @media screen and (min-width: 700px) {
+        width: 50vw;
+    }
+    @media screen and (min-width: 900px) {
+        width: 40vw;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 30vw;
+        margin-bottom: 0;
+    }
+    @media screen and (min-width: 1300px) {
+        width: 25vw;
+    }
+    @media screen and (min-width: 1700px) {
+        height: 40vh;
+    }
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    li {
+        font-size: 1.3rem;
+        padding: 0 1rem;
+        margin-bottom: 5%;
+    }
+    &__imgWrapper {
+        position: absolute;
+        bottom: 95%;
+        left: calc(50% - 10%);
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        border-radius: 15px;
+        @media screen and (min-width: 500px) {
+            width: 15%;
+            left: calc(50% - 5%);
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

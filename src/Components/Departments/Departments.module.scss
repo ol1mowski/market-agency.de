@@ -1,0 +1,23 @@
+.departmentsContainer {
+    padding-bottom: 5%;
+    background-color: #e7dfd8;
+    &__wrapper {
+        @media screen and (min-width: 1024px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__h2 {
+        text-align: center;
+        padding: 1rem;
+        font-size: 3rem;
+        @media screen and (min-width: 500px) {
+            font-size: 2.5rem;
+            padding: 3rem;
+        }
+        @media screen and (min-width: 700px) {
+            font-size: 3.5rem;
+        }
+    }
+}
