@@ -1,4 +1,5 @@
 .motivationContainer {
+    padding-bottom: 5rem;
     h2 {
         text-align: center;
         font-size: 2rem;
@@ -16,11 +17,11 @@
     }
     &__img {
         transform: rotate(90deg);
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
         display: block;
         @media screen and (min-width: 1300px) {
-            width: 40%;
+            width: 30%;
         }
     }
 }
